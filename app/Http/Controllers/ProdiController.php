@@ -45,7 +45,7 @@ class ProdiController extends Controller
     {
         // dump($request);
         // echo $request->nama;
-        $this->authorize('create', Prodi::class);
+        // $this->authorize('create', Prodi::class);
 
         $validateData = $request->validate(
             [
